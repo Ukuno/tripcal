@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+      <h1>The expense Calculator</h1>
+
+      <ul class="list-group list-group-flush" *ngFor = "let person of students">
+        <li class="list-group-item" >{{ person.name }}
+
+            <span class="badge">{{ person.totalbill}} $</span>
+            <span class="badge">Expense</span>
+        </li>
+        <li class="list-group-item">
+          <small>* if negative the person will get the amount </small>
+
+            <span class="badge">{{ person.owe}} $</span>
+            <span class="badge">Owe</span>
+
+        </li>
+         </ul>
+
+              <div class="well">
+                  <p> Total bill
+                    <span class="badge" style="float: right;"> {{ total }} $</span></p>
+                 </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- /--------------------------------------------------- -->
+
