@@ -1,3 +1,10 @@
+#Installation
+
+run npm install when you download to your local computer.
+
+the project is only to display the expenses of three students and the main logic is to have the same amount of expense at the end and who ever paid more than the other will get paid from the rest of the list.
+
+
 # Tripcal
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
